@@ -32,7 +32,7 @@ class DatasetFactory:
         seed=0,
         sv_ratio=1,
         version=1,
-        target_attr="Attractive",
+        target_attr="black",
         add_attr=None,
         ups_iter=0,
     ):
