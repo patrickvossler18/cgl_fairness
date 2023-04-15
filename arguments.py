@@ -47,7 +47,7 @@ def get_args():
         "--dataset",
         required=True,
         default="l2",
-        choices=["adult", "compas", "utkface", "celeba", "utkface_fairface"],
+        choices=["l2", "adult", "compas", "utkface", "celeba", "utkface_fairface"],
     )
     parser.add_argument("--batch-size", default=128, type=int, help="mini batch size")
     parser.add_argument(
