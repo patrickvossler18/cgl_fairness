@@ -261,7 +261,7 @@ def main():
     elif args.dataset == "compas":
         args.img_size = 400
     elif args.dataset == "l2":
-        args.img_size = 7
+        args.img_size = 8
     log_name = make_log_name(args)
     dataset = args.dataset
     save_dir = os.path.join(args.save_dir, args.date, dataset, args.method)
