@@ -17,7 +17,7 @@ dataset_dict = {
     "adult": ["data_handler.adult", "AdultDataset_torch"],
     "compas": ["data_handler.compas", "CompasDataset_torch"],
     "cifar100s": ["data_handler.cifar100s", "CIFAR_100S"],
-    "l2": ["data_handler.l2", "L2"],
+    "l2": ["data_handler.l2", "l2"],
 }
 
 
